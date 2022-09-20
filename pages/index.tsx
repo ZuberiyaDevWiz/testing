@@ -1,4 +1,12 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
--+
+import Home from "components/pages/home/Index";
+import { FC } from "react";
+
+const Index: FC = () => {
+  return (
+    <>
+      <h1>hello world</h1>
+    </>
+  );
+};
+
+export default Index;

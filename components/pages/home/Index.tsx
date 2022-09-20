@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Index: FC = () => {
+const Home: FC = () => {
   return (
     <>
       <h1>hello</h1>
@@ -8,4 +8,4 @@ const Index: FC = () => {
   );
 };
 
-export default Index;
+export default Home;
